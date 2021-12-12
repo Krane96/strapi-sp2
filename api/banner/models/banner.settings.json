@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "banners",
   "info": {
-    "name": "Home",
+    "name": "banner",
     "description": ""
   },
   "options": {
@@ -11,16 +11,17 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "image": {
+    "wow_banner": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
+    },
+    "image_url": {
+      "type": "richtext"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "homes",
+  "kind": "collectionType",
+  "collectionName": "hero",
   "info": {
-    "name": "Home",
+    "name": "test",
     "description": ""
   },
   "options": {
